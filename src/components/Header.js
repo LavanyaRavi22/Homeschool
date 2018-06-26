@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Header = () => (
 	<header>
-		<h2> A1 and A2's homeschool </h2>
-		<ul>
+		<h2 className="header"> A1 and A2's homeschool </h2>
+		<ul className="navBar">
 			<li><Link to='/'> Home </Link></li>
 			<li><Link to='/gallery'> Gallery </Link></li>
 			<li><Link to='/classes'> Classes </Link></li>
