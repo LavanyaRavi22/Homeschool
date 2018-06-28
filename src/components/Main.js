@@ -8,7 +8,7 @@ import Printables from './Printables';
 const Main = () => (
 	<Switch>
 		<Route exact path="/" component={Home} />
-		<Route path="/gallery" component={Gallery} />
+		<Route exact path="/gallery" component={Gallery} />
 		<Route path="/classes" component={Classes} />
 		<Route path="/printables" component={Printables} />
 	</Switch>
